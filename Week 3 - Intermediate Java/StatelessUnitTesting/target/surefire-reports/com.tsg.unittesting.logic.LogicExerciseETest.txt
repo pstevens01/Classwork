@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.tsg.unittesting.logic.LogicExerciseETest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE! - in com.tsg.unittesting.logic.LogicExerciseETest
+testWhatColorOrange  Time elapsed: 0.014 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Orange> but was: <Yellow>
+	at com.tsg.unittesting.logic.LogicExerciseETest.testWhatColorOrange(LogicExerciseETest.java:64)
+
