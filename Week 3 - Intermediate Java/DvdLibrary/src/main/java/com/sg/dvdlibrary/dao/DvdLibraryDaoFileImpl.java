@@ -35,9 +35,17 @@ public class DvdLibraryDaoFileImpl implements DvdLibraryDao {
     // DVD library collection using HashMap key, value properties
     private Map<String, Dvd> dvds = new HashMap<>();
     
-    public static final String DVD_LIBRARY = "library.txt";
+    private final String DVD_LIBRARY;
     public static final String DELIMITER = "::";
+    
+    public DvdLibraryDaoFileImpl() {
+        DVD_LIBRARY = "library.txt";
+    }
 
+    public DvdLibraryDaoFileImpl(String libraryTextFile) {
+        DVD_LIBRARY = libraryTextFile;
+    }
+    
     // Adds the DVD to the DVD library HashMap and returns that obj
     @Override
     public Dvd addDvd(String title, Dvd dvd) throws DvdLibraryDaoException {
