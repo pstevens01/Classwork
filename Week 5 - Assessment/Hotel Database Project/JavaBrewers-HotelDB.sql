@@ -7,7 +7,7 @@ use JavaBrewersHotel;
 create table room (
 	roomNumber int primary key,
 	roomType varchar(10) not null,
-    adaAccessible boolean not null,
+    adaAccessible boolean not null default 0,
     standardOccupancy int not null,
     maxOccupancy int not null,
     basePrice decimal(5,2) not null,

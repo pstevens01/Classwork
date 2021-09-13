@@ -1,6 +1,5 @@
 use JavaBrewersHotel;
 
-
 INSERT INTO `amenity` VALUES (1,'Microwave'),(2,'Refrigerator'),(3,'Jacuzzi');
 
 INSERT INTO `guest` VALUES (1,'Java','Brewers','123 Code Ln.','Seattle','WA','12345','(555) 111-7890'),
@@ -41,3 +40,10 @@ INSERT INTO `roomamenity` VALUES (201,1),(203,1),(205,1),(206,1),(207,1),(208,1)
 (306,1),(307,1),(308,1),(401,1),(402,1),(202,2),(204,2),(205,2),(206,2),(207,2),(208,2),(302,2),(304,2),
 (305,2),(306,2),(307,2),(308,2),(401,2),(402,2),(201,3),(203,3),(205,3),(207,3),(301,3),(303,3),(305,3),
 (307,3),(401,3),(402,3);
+
+-- Delete Jeremiah Pendergrass from guest and reservation tables
+DELETE FROM reservation
+WHERE guestId = 8;
+
+DELETE FROM guest
+WHERE guestId = 8 AND lastName = 'Pendergrass' AND firstName = 'Jeremiah';
