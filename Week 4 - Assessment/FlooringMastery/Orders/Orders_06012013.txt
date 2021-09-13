@@ -1,0 +1,2 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total
+1::Paul Stevens::TX::4.450::Carpet::400.00::2.250::2.100::900.00::840.00::77.43::1817.43

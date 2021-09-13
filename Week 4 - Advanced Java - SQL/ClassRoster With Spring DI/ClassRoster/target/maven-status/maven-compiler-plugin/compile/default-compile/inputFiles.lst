@@ -1,0 +1,15 @@
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\App.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\ui\ClassRosterView.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\service\ClassRosterDataValidationException.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\service\ClassRosterDuplicateIdException.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\service\ClassRosterServiceLayerImpl.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\ui\UserIO.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\dto\Student.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\dao\ClassRosterDao.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\service\ClassRosterPersistenceException.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\service\ClassRosterServiceLayer.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\ui\UserIOConsoleImpl.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\dao\ClassRosterAuditDao.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\dao\ClassRosterAuditDaoImpl.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\controller\ClassRosterController.java
+C:\Users\Paul\Desktop\Mthree Java Training Course\Java Projects Folder\ClassRoster\src\main\java\com\sg\classroster\dao\ClassRosterDaoFileImpl.java

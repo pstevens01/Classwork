@@ -1,0 +1,4 @@
+com\sg\classroster\service\ClassRosterAuditDaoStubImpl.class
+com\sg\classroster\service\ClassRosterDaoStubImpl.class
+com\sg\classroster\dao\ClassRosterDaoFileImplTest.class
+com\sg\classroster\service\ClassRosterServiceLayerImplTest.class
