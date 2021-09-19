@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: javabrewers.bespokejewelerblog.BespokeJewelerBlogAppTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.405 s - in javabrewers.bespokejewelerblog.BespokeJewelerBlogAppTests

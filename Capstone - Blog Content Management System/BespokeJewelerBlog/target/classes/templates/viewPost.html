@@ -1,0 +1,45 @@
+<html xmlns:th="http://www.thymeleaf.org"
+    th:if ="${post != null}">
+    <head>
+        <title>View Post</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"></link>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="..">Crystal Designworks</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                        <a class="nav-item nav-link" onclick="location.href='index'" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Home
+                    </a>
+                    
+                    
+                    <a class="nav-item nav-link" onclick="location.href='submitPost'" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Write Blog
+                    </a>
+                    <a class="nav-item nav-link active" onclick="location.href='viewAllPosts'">View Blogs <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" onclick="location.href='aboutMe'" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Me
+                    </a>
+                    <a class="nav-item nav-link" onclick="location.href='contact'" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                    </a>
+                    
+                </div>
+            </div>
+        </nav>
+        <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}">
+        <link rel="stylesheet" type="text/css" th:href="@{/css/home.css}">
+</head>
+    <body>
+        <div th:if ="${post != null}" class ="container">
+        </br>
+            <p><span style="font-weight: bold">Author: </span><span th:text="${post.creatorId}"></span></p>
+        <h1><span style="font-weight: bold" th:text="${post.postTitle}"></span></h1>
+        <div th:remove="tag" th:utext="${post.postText}"></div>
+        </div>
+    </body>
+</html>
