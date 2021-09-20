@@ -1,0 +1,62 @@
+body {
+  background-color: #1a1a19;
+  color: white;
+}
+
+hr {
+  width: 100%;
+  background-color: #EDEFF4;
+}
+
+h2 {
+  font-size: 30px; 
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+td {
+  background-color: #EDEFF4;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.input-group {
+  padding: 5px;
+}
+
+.input-box {
+  border-width: 1px; 
+  border-style: solid; 
+  border-color: ghostwhite; 
+  padding: 20px 20px 20px 20px;
+}
+
+.dropdown-menu {
+  width: 20%;
+}
+
+.dropdown-item {
+  width: 30%;
+  overflow: visible;
+}
+
+#selection {
+  border-width: 1px; 
+  border-style: solid; 
+  border-color: ghostwhite; 
+}
+
+#tableTitle {
+  padding-bottom: 10px;
+}
+
+#tableHeader {
+  background-color: #EDEFF4;
+}

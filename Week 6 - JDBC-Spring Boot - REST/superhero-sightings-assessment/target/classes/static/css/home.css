@@ -1,0 +1,19 @@
+label {
+  text-align: center;
+  font-size: 20px;
+}
+
+.col {
+  text-align: center;
+}
+
+.row {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  border-color: #edebe2;
+}
+
+.btn-lg {
+  margin: 10px 10px 10px 10px;
+}

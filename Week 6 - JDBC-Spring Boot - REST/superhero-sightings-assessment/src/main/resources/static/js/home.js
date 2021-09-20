@@ -1,0 +1,3 @@
+function handleReady() {
+    alert("Ready");
+}
